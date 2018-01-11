@@ -24,11 +24,12 @@ hr {
     border-color: #dedede;
 }
 
-.seprator {
+.seperator {
     border: 1px solid grey;
     border-top: 0;
     border-right: 0;
     border-left: 0;
+    padding: 1px;
 }
 
 .wrapper,
@@ -140,7 +141,7 @@ hr {
     color: #ffffff;
     background-color: #3b5999;
     text-shadow: 0 0 2px #000000;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 
 #sidebar .nav li>a:hover {
@@ -227,8 +228,7 @@ textarea.form-control {
 }
 
 .pd-1 {
-    padding: 10px;
-    margin-right: 30%;
+    padding: 4px;
 }
 
 .badge-green {
@@ -238,14 +238,30 @@ textarea.form-control {
 
 .circle-green {
     color: rgb(8, 207, 124);
+    float: right;
 }
 
 .circle-red {
     color: rgb(207, 8, 8);
+    float: right;
+}
+
+.pd-4 {
+    padding: 2rem;
+}
+
+.justify {
+    text-align: center;
+}
+
+.white-hover:hover {
+    background-color: #fff;
+    color: black;
 }
 
 .circle-grey {
     color: rgb(244, 245, 244);
+    float: right;
 }
 
 .badge:hover,
@@ -256,6 +272,10 @@ textarea.form-control {
 
 .fnt-20 {
     font-size: 2vh;
+}
+
+.fnt-30 {
+    font-size: 3vh;
 }
 
 .jumbotron {
