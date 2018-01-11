@@ -4,7 +4,7 @@ html,
 body {
     height: 100%;
     font-family: verdana, arial, sans-serif;
-    color: #555555;
+    color: rgb(143, 139, 139);
 }
 
 .nav {
@@ -73,7 +73,7 @@ hr {
     position: absolute;
     right: 0;
     top: 0;
-    background-color: #444444;
+    background-color: #f7f4f4;
     /*
     background-image:url('/assets/example/bg_suburb.jpg');
     background-size:cover;
@@ -145,7 +145,13 @@ hr {
 }
 
 #sidebar .nav li>a:hover {
-    background-color: #393939;
+    background-color: rgb(241, 230, 230);
+    color: black;
+    text-shadow: 0 0 0px #000000
+}
+
+.well {
+    background-color: #fff;
 }
 
 .logo {
@@ -164,6 +170,10 @@ hr {
     text-decoration: none;
     text-shadow: 0 0 1px;
     border-radius: 2px;
+}
+
+.txt-white {
+    color: white;
 }
 
 #sidebar-footer {
@@ -254,7 +264,7 @@ textarea.form-control {
     text-align: center;
 }
 
-.white-hover:hover {
+.seperator>a:hover {
     background-color: #fff;
     color: black;
 }
