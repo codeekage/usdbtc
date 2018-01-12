@@ -18,9 +18,50 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" style="overflow-x:hidden">
+        <!-- top nav -->
+        <div class="navbar navbar-blue navbar-static-top" style="width:100%">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle</span>
+                        <span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+          				<span class="icon-bar"></span>
+                      </button>
+                <a href="/" class="navbar-brand logo">U</a>
+            </div>
+            <nav class="collapse navbar-collapse" role="navigation">
+                <form class="navbar-form navbar-left">
+                    <div class="input-group input-group-sm" style="max-width:600px; max-height:20px;">
+                        <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"><i class="fa fa-home fnt-30"></i></a>
+                    </li>
+                    <li>
+                        <a href="#postModal" role="button" data-toggle="modal"><i class="fa fa-plus fnt-30"></i> </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-bell fnt-30"></i> <span class="badge badge-red">2</span></a>
+                    </li>
+                    <li>
+                        <a href="crypt/crypt.html"><i class="fa fa-bitcoin fnt-30"></i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-circle-o fnt-30"></i></a>
+
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
         <div class="box">
-            <div class="row row-offcanvas row-offcanvas-left">
+            <div class="row row-offcanvas row-offcanvas-center">
 
 
                 <!-- sidebar -->
@@ -80,66 +121,19 @@
                 <!-- main right col -->
                 <div class="column col-sm-10 col-xs-11" id="main">
 
-                    <!-- top nav -->
-                    <div class="navbar navbar-blue navbar-static-top">
-                        <div class="navbar-header">
-                            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle</span>
-                        <span class="icon-bar"></span>
-          				<span class="icon-bar"></span>
-          				<span class="icon-bar"></span>
-                      </button>
-                            <a href="/" class="navbar-brand logo">U</a>
-                        </div>
-                        <nav class="collapse navbar-collapse" role="navigation">
-                            <form class="navbar-form navbar-left">
-                                <div class="input-group input-group-sm" style="max-width:360px;">
-                                    <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-                                    </div>
-                                </div>
-                            </form>
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    <a href="#"><i class="fa fa-home"></i> Home</a>
-                                </li>
-                                <li>
-                                    <a href="#postModal" role="button" data-toggle="modal"><i class="fa fa-plus"></i> Post</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-bell"></i> <span class="badge badge-red">2</span></a>
-                                </li>
-                                <li>
-                                    <a href="crypt/crypt.html"><i class="fa fa-bitcoin"></i> CrytoGraph</a>
-                                </li>
-                            </ul>
-                            <ul class="nav navbar-nav navbar-right">
-                                </li>
-                                <li>
-                                    <a href="#"><span class="badge">Sign Up</span></a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-circle-o fnt-30"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="">More</a></li>
-                                        <li><a href="">More</a></li>
-                                        <li><a href="">More</a></li>
-                                        <li><a href="">More</a></li>
-                                        <li><a href="">More</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+
                     <!-- /top nav -->
 
-                    <div class="padding">
-                        <div class="full col-sm-9">
+                    <div class="padding container">
+                        <div class="full col-sm-8">
 
                             <!-- content -->
                             <div class="row">
                                 <div class="well">
+                                    <p>
+                                        <img class="img-responsive post" src="img/user-2.jpg">
+                                        <span class="black"><a href="#">Agiri Abrahm Junior</a></span>
+                                    </p>
                                     <form class="form-horizontal" role="form">
                                         <h4>What's New</h4>
                                         <div class="form-group" style="padding:14px;">
@@ -147,7 +141,6 @@
                                         </div>
                                         <button class="btn btn-primary pull-right" type="button">Post</button>
                                         <ul class="list-inline">
-                                            <li><a href="" class="txt-white"><i class="txt-white fa fa-upload"></i></a></li>
                                             <li><a href=""><i class="fa fa-camera"></i></a></li>
                                             <li><a href=""><i class="fa fa-location-arrow"></i></a></li>
                                         </ul>
@@ -155,16 +148,29 @@
                                 </div>
                                 <!-- main col left -->
                                 <div class="well">
+                                    <p>
+                                        <img class="img-responsive post" src="img/user.jpg">
+                                        <span class="black"> <a href="#">Bruce Waynes posted something</a></span>
+                                    </p>
 
                                     <div class="panel panel-default">
-                                        <div class="panel-thumbnail"><img src="img/user-3.jpg" class="img-responsive"></div>
+                                        <div class="panel-thumbnail"><img src="img/img.png" class="img-responsive"></div>
                                         <div class="panel-body">
-                                            <p class="lead">Urbanization</p>
-                                            <p>45 Followers, 13 Posts</p>
-
                                             <p>
-                                                <img src="img/img.png" width="28px" height="28px">
+                                                <button class="btn btn-default rmv-border">
+                                                    <i class="fa fa-thumbs-up blue"></i> 
+                                                    <span> 700 interested</span> 
+                                                </button>
+                                                <button class="btn btn-default rmv-border">
+                                                    <i class="fa fa-share"></i >
+                                                     <span> 77 share</span>
+                                                </button>
+
                                             </p>
+
+                                            <!--  <p>
+                                                <img src="img/img.png" width="28px" height="28px">
+                                            </p> -->
                                         </div>
 
                                     </div>
@@ -172,7 +178,7 @@
                                     <form>
                                         <div class="input-group">
                                             <div class="input-group-btn">
-                                                <button class="btn btn-default">+1</button><button class="btn btn-default"><i class="fa fa-share-square-o"></i></button>
+                                                <button class="btn btn-default">+9</button><button class="btn btn-default"><i class="fa fa-share-square-o"></i></button>
                                             </div>
                                             <input type="text" class="form-control" placeholder="Add a comment..">
                                         </div>
@@ -181,28 +187,30 @@
 
                                 <!-- main col right -->
                                 <div class="well">
-
-                                    <!-- <div class="well">
-                                        <form class="form">
-                                            <h4>Sign-up</h4>
-                                            <div class="input-group text-center">
-                                                <input type="text" class="form-control input-lg" placeholder="Enter your email address">
-                                                <span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
-                                            </div>
-                                        </form>
-                                    </div>-->
+                                    <p>
+                                        <img class="img-responsive post" src="img/user.jpg">
+                                        <span class="black"> <a href="#">Bruce Waynes posted something</a></span>
+                                    </p>
 
 
                                     <div class="panel panel-default">
-                                        <div class="panel-heading"><a href="#" class="pull-right">View all</a>
-                                            <h4>Stackoverflow</h4>
-                                        </div>
+
                                         <div class="panel-body">
                                             <img src="img/img.png" class="img-circle pull-right"> <a href="#">Keyword: Bootstrap</a>
                                             <div class="clearfix"></div>
                                             <hr>
 
-                                            <p>If you're looking for help with Bootstrap code, the <code>twitter-bootstrap</code> tag at <a href="http://stackoverflow.com/questions/tagged/twitter-bootstrap">Stackoverflow</a> is a good place to find answers.</p>
+                                            <p>
+                                                <button class="btn btn-default rmv-border">
+                                                    <i class="fa fa-thumbs-up blue"></i> 
+                                                    <span> 700 interested</span> 
+                                                </button>
+                                                <button class="btn btn-default rmv-border">
+                                                    <i class="fa fa-share"></i >
+                                                     <span> 77 share</span>
+                                                </button>
+
+                                            </p>
 
                                             <hr>
                                             <form>
@@ -220,12 +228,28 @@
 
                                 </div>
                                 <div class="well">
+                                    <p>
+                                        <img class="img-responsive post" src="img/user.jpg">
+                                        <span class="black"> <a href="#">Bruce Waynes posted something</a></span>
+                                    </p>
+
+
+
                                     <div class="panel panel-default">
                                         <div class="panel-thumbnail">
                                             <img src="img/img.png" class="img-responsive "></div>
                                         <div class="panel-body ">
-                                            <p class="lead ">Social Good</p>
-                                            <p>1,200 Followers, 83 Posts</p>
+                                            <p>
+                                                <button class="btn btn-default rmv-border">
+                                                    <i class="fa fa-thumbs-up blue"></i> 
+                                                    <span> 700 interested</span> 
+                                                </button>
+                                                <button class="btn btn-default rmv-border">
+                                                    <i class="fa fa-share"></i >
+                                                     <span> 77 share</span>
+                                                </button>
+
+                                            </p>
 
                                             <p>
                                                 <img src="img/img.png " width="28px " height="28px ">
@@ -246,6 +270,8 @@
                                 </div>
                             </div>
                         </div>
+
+
                         <!--/row-->
 
                         <div class="row ">
@@ -279,6 +305,8 @@
                     <!-- /col-9 -->
                 </div>
                 <!-- /padding -->
+                <!-- /sidebar -->
+
             </div>
             <!-- /main -->
 
