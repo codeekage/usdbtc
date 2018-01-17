@@ -1,0 +1,257 @@
+.form-group.form-group-no-border.input-lg .input-control,
+.input-group.form-group-no-border.input-lg .input-control {
+    padding: 15px 19px;
+}
+
+.form-group.form-group-no-border.input-lg .input-control+.input-group-addon,
+.input-group.form-group-no-border.input-lg .input-control+.input-group-addon {
+    padding: 15px 19px 15px 0;
+}
+
+.form-group.input-lg .input-control,
+.input-group.input-lg .input-control {
+    padding: 14px 18px;
+}
+
+.form-group.input-lg .input-control+.input-group-addon,
+.input-group.input-lg .input-control+.input-group-addon {
+    padding: 14px 18px 14px 0;
+}
+
+.form-group .input-group-addon+.input-control,
+.form-group .input-group-addon~.input-control,
+.input-group .input-group-addon+.input-control,
+.input-group .input-group-addon~.input-control {
+    padding: 10px 19px 11px 16px;
+}
+
+.form-group.form-group-no-border .input-control,
+.form-group.form-group-no-border .input-control+.input-group-addon,
+.input-group.form-group-no-border .input-control,
+.input-group.form-group-no-border .input-control+.input-group-addon {
+    background-color: rgba(222, 222, 222, 0.3);
+    border: medium none;
+}
+
+.form-group.form-group-no-border .input-control:focus,
+.form-group.form-group-no-border .input-control:active,
+.form-group.form-group-no-border .input-control:active,
+.form-group.form-group-no-border .input-control+.input-group-addon:focus,
+.form-group.form-group-no-border .input-control+.input-group-addon:active,
+.form-group.form-group-no-border .input-control+.input-group-addon:active,
+.input-group.form-group-no-border .input-control:focus,
+.input-group.form-group-no-border .input-control:active,
+.input-group.form-group-no-border .input-control:active,
+.input-group.form-group-no-border .input-control+.input-group-addon:focus,
+.input-group.form-group-no-border .input-control+.input-group-addon:active,
+.input-group.form-group-no-border .input-control+.input-group-addon:active {
+    border: medium none;
+    background-color: rgba(222, 222, 222, 0.5);
+}
+
+.form-group.form-group-no-border .input-control:focus+.input-group-addon,
+.input-group.form-group-no-border .input-control:focus+.input-group-addon {
+    background-color: rgba(222, 222, 222, 0.5);
+}
+
+.has-danger .input-control:focus+.input-group-addon {
+    color: #FF3636;
+}
+
+.has-success .input-control:focus+.input-group-addon {
+    color: #18ce0f;
+}
+
+.input-group-addon+.input-control,
+.input-group-addon~.input-control {
+    padding: -0.5rem 0.7rem;
+    padding-left: 18px;
+}
+
+.input-group .input-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child>.dropdown-toggle,
+.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-right: 0 none;
+}
+
+.input-group .input-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child>.dropdown-toggle,
+.input-group-btn:first-child>.btn:not(:first-child) {
+    border-left: 0 none;
+}
+
+.input-control[disabled],
+.input-control[readonly],
+fieldset[disabled] .input-control {
+    background-color: #E3E3E3;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.has-success.form-group .input-control,
+.has-success.form-group.form-group-no-border .input-control,
+.has-danger.form-group .input-control,
+.has-danger.form-group.form-group-no-border .input-control {
+    padding-right: 40px;
+}
+
+.login-page .card-login.card-plain .input-control::-moz-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .input-control:-moz-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .input-control::-webkit-input-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .input-control:-ms-input-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.login-page .card-login.card-plain .input-control {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .input-control:focus {
+    border-color: #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .has-danger .input-control {
+    background-color: transparent;
+}
+
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control:focus,
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control:active,
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control:active,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control:focus,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control:active,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control+.input-group-addon,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control+.input-group-addon {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control+.input-group-addon:focus,
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control+.input-group-addon:active,
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control+.input-group-addon:active,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control+.input-group-addon:focus,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control+.input-group-addon:active,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control+.input-group-addon:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+.login-page .card-login.card-plain .form-group.form-group-no-border .input-control:focus+.input-group-addon,
+.login-page .card-login.card-plain .input-group.form-group-no-border .input-control:focus+.input-group-addon {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+[data-background-color] .input-control::-moz-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+[data-background-color] .input-control:-moz-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+[data-background-color] .input-control::-webkit-input-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+[data-background-color] .input-control:-ms-input-placeholder {
+    color: #ebebeb;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+[data-background-color] .input-control {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+}
+
+[data-background-color] .input-control:focus {
+    border-color: #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+[data-background-color] .has-danger .input-control {
+    background-color: transparent;
+}
+
+[data-background-color] .form-group.form-group-no-border .input-control,
+[data-background-color] .input-group.form-group-no-border .input-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+}
+
+[data-background-color] .form-group.form-group-no-border .input-control:focus,
+[data-background-color] .form-group.form-group-no-border .input-control:active,
+[data-background-color] .form-group.form-group-no-border .input-control:active,
+[data-background-color] .input-group.form-group-no-border .input-control:focus,
+[data-background-color] .input-group.form-group-no-border .input-control:active,
+[data-background-color] .input-group.form-group-no-border .input-control:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+[data-background-color] .form-group.form-group-no-border .input-control+.input-group-addon,
+[data-background-color] .input-group.form-group-no-border .input-control+.input-group-addon {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-background-color] .form-group.form-group-no-border .input-control+.input-group-addon:focus,
+[data-background-color] .form-group.form-group-no-border .input-control+.input-group-addon:active,
+[data-background-color] .form-group.form-group-no-border .input-control+.input-group-addon:active,
+[data-background-color] .input-group.form-group-no-border .input-control+.input-group-addon:focus,
+[data-background-color] .input-group.form-group-no-border .input-control+.input-group-addon:active,
+[data-background-color] .input-group.form-group-no-border .input-control+.input-group-addon:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+[data-background-color] .form-group.form-group-no-border .input-control:focus+.input-group-addon,
+[data-background-color] .input-group.form-group-no-border .input-control:focus+.input-group-addon {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+.custom-select.is-valid,
+.input-control.is-valid,
+.was-validated .custom-select:valid,
+.was-validated .input-control:valid {
+    border-color: #28a745
+}
